@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { TEMPLATE_DATA } from "@/data/template";
-import beforeImg from "@/assets/before-1.jpg";
-import afterImg from "@/assets/after-1.jpg";
-
+const beforeImg = "/image_2026-05-04_19-30-37 (1).png";
+const afterImg = "/image_2026-05-04_19-30-37 (2).png";
 function Comparison({ before, after, alt }: { before: string; after: string; alt: string }) {
   const [pos, setPos] = useState(50);
   const ref = useRef<HTMLDivElement>(null);
