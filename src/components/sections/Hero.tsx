@@ -3,8 +3,7 @@ import { Calendar, Calculator, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TEMPLATE_DATA } from "@/data/template";
 import { trackEvent } from "@/lib/tracking";
-import heroImg from "@/assets/hero-clinic.jpg";
-
+const heroImg = "/lazer.jpg";
 export function Hero() {
   const { hero } = TEMPLATE_DATA;
   return (
